@@ -2,19 +2,19 @@
 
 namespace _01_Calculator
 {
-    internal class Calculator
+    public class Calculator
     {
-        internal static int Add(int v1, int v2)
+        public static int Add(int v1, int v2)
         {
             return v1 + v2;
         }
 
-        internal static int Subtract(int v1, int v2)
+        public static int Subtract(int v1, int v2)
         {
             return v1 - v2;
         }
 
-        internal static int Sum(int[] numbers)
+        public static int Sum(int[] numbers)
         {
             int sum = 0;
             /*for(int i = 0; i<numbers.Length; i++)
@@ -28,7 +28,7 @@ namespace _01_Calculator
             return sum;
         }
 
-        internal static int Multiply(int[] numbers)
+        public static int Multiply(int[] numbers)
         {
             int mult = 1;
             /*for(int i = 0; i<numbers.Length; i++)
@@ -45,12 +45,12 @@ namespace _01_Calculator
             return mult;
         }
 
-        internal static int Power(int v1, int v2)
+        public static int Power(int v1, int v2)
         {
             return (int) Math.Pow(v1,v2);
         }
 
-        internal static int Factorial(int v)
+        public static int Factorial(int v)
         {
             int factSum = 1;
             for(int i = v; i>0; i--)
