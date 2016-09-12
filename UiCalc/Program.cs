@@ -66,6 +66,7 @@ namespace UiCalc
         {
             Console.Clear();
             Console.WriteLine("The result of that operation is: " + res);
+            Console.Write("Press any key to continue...");
             Console.ReadKey();
         }
 
